@@ -35,6 +35,19 @@ To enhance user experience, the website also features an **AI-powered chatbot** 
 - Responsive Web Design
 
 ---
+## 📸 Screenshots
+
+### Home Page
+
+![Home Page](home.png)
+
+### Book a Dog Walker
+
+![Book](bookdog.png)
+
+### Become a Dog Walker
+
+![Register](becomedogwalker.png)
 
 ## 📂 Project Structure
 
