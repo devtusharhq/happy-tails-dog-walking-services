@@ -1,0 +1,21 @@
+# VS Code
+.vscode/
+
+# IntelliJ / PHPStorm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Log files
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Composer dependencies (if you ever use Composer)
+vendor/
