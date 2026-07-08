@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Book Dog Walker | Dog Walking Services</title>
+    <link rel="stylesheet" href="dg.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="/">
+               <img src="logo.png" align="left" height="80px" width="40px" alt="Dog Walking Services">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="bookdg.html">Book a Dog Walker</a></li>
+                <li><a href="regidg.html">Become a Dog Walker</a></li>
+                <li><a href="contacts.html">Contact Us</a></li>
+            </ul>
+        </nav><br>
+    </header>
+
+    <main>
+        <section>
+            <h2>Book a Dog Walker</h2>
+            <p>Looking for a dog walker? Choose a time and place to book a walk for your dog!</p>
+           <form id="booking-form" method="POST" action="bookdg.php">
+                <input type="text" id="dog-name" name="dog-name" placeholder="Dog's Name" required><br><br>
+                <input type="datetime-local" id="walk-time" name="walk-time" required><br><br>
+                <input type="text" id="address" name="address" placeholder="Address" required><br><br>
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+    </main>
+<br><br><br><br><br><br><br>
+    <footer>
+        <p>&copy; 2025 Dog Walking Services | All Rights Reserved</p>
+        <p>Visit us at: 123 Lara Street, Vile Parle W, Mumbai-400056.</p>
+    </footer>
+    </footer>
+
+    <script src="dg.js"></script>
+</body>
+</html>
